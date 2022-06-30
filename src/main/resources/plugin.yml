@@ -1,0 +1,7 @@
+name: SoulSMP
+version: '${project.version}'
+main: net.technotalks.soulsmp.SoulSMP
+api-version: 1.19
+prefix: SoulSMP
+authors: [ TechnoTalks ]
+description: The plugin that runs the Soul SMP
