@@ -42,6 +42,7 @@ class ItemManager {
             val dmg = meta as org.bukkit.inventory.meta.Damageable
             dmg.damage = dmg.damage/4
             meta.addItemFlags(ItemFlag.HIDE_ATTRIBUTES, ItemFlag.HIDE_ENCHANTS)
+            meta.setCustomModelData(69421)
             stack.itemMeta = meta
             return stack
         }
@@ -60,4 +61,5 @@ class ItemManager {
         }
 
     }
+
 }
